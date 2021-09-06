@@ -9,14 +9,14 @@ Gem::Specification.new do |spec|
   spec.email         = ['devpedropaiao@gmail.com']
 
   spec.summary       = 'Thats a simple gem to help with cpf parsers.'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/PedroPaiao/cpf_simplifier'
   # spec.required_ruby_version = Gem::Requirement.new('>= 2.4.0')
 
   # spec.metadata['allowed_push_host'] = 'Set to 'http://mygemserver.com''
 
-  # spec.metadata['homepage_uri'] = spec.homepage
-  # spec.metadata['source_code_uri'] = 'Put your gem's public repo URL here.'
-  # spec.metadata['changelog_uri'] = 'Put your gem's CHANGELOG.md URL here.'
+  spec.metadata['homepage_uri'] = spec.homepage
+  spec.metadata['source_code_uri'] = 'https://github.com/PedroPaiao/cpf_simplifier'
+  spec.metadata['changelog_uri'] = ""
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem
