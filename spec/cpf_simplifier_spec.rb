@@ -6,7 +6,7 @@ RSpec.describe CpfSimplifier do
   end
 
   it 'does something useful' do
-    cpf = CpfSimplifier.format_cpf('05398351109')
+    cpf = ''.format_cpf('05398351109')
     expect(cpf).to eq('053.983.511-09')
   end
 end

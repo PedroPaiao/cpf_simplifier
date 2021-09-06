@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "cpf_simplifier/version"
+require_relative 'cpf_simplifier/version'
 
+# Module by using simplify methods
 module CpfSimplifier
   class Error < StandardError; end
   # Your code goes here...
@@ -24,4 +25,9 @@ module CpfSimplifier
   def reformat_cpf(value)
     format_cpf(unformat_cpf(value))
   end
+end
+
+# To implement cpf_simplifier in strings
+class String
+  include CpfSimplifier
 end
