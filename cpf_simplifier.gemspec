@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = CpfSimplifier::VERSION
   spec.authors       = ['Pedro Augusto Paião L. da Silva']
   spec.email         = ['devpedropaiao@gmail.com']
-  spec.licenses    = ['MIT']
+  spec.licenses      = ['MIT']
 
   spec.summary       = 'Thats a simple gem to help with cpf parsers.'
   spec.homepage      = 'https://github.com/PedroPaiao/cpf_simplifier'
