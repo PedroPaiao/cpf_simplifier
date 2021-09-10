@@ -23,7 +23,7 @@ Or install it yourself as:
 ## Usage
     irb> '00000000000'.format_cpf => '000.000.000-00'
 
-    irb> '000.000.000-00'.format_cpf => '00000000000'
+    irb> '000.000.000-00'.unformat_cpf => '00000000000'
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
